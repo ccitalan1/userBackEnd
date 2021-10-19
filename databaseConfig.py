@@ -8,5 +8,4 @@ try:
 except Exception as e:
     raise Exception("NO CONNECTION TO THE DATABASE", e)
 
-
 db.close()
