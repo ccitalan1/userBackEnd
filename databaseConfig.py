@@ -3,7 +3,7 @@ import mysql.connector
 # def connect_to_database():
 try:
     connection = mysql.connector.connect(user='root',
-                                         password='rootPassword',
+                                         password='myRootPassword',
                                          host='localhost',
                                          database='test_database')
     print("Connected")
